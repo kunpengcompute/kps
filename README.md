@@ -1,4 +1,4 @@
-# kps 
+# KPS 
 Kunpeng Storage provide kunpeng storage accelerator in Kunpeng compute. 
 
 ## Introduction
