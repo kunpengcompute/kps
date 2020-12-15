@@ -1,3 +1,7 @@
+# GLZ Makefile
+# ARM Platform
+# Compatible with zstd-1.4.5
+
 CC = gcc
 CXX = g++
 
@@ -54,4 +58,4 @@ libglz.so: GLZ_PART
 	$(CXX) -o libglz.so $(ZSTD_FILES) -shared -fPIC -L. -Wl,--whole-archive glz_arm.a libsecurec_arm.a -Wl,--no-whole-archive
 
 clean:
-	rm -rf *.o *.so zstd-1.4.5/lib/common/*.o zstd-1.4.5/lib/compress/*.o zstd-1.4.5/lib/decompress/*.o zstd-1.4.5/lib/dicBuilder/*.o
+	rm -rf *.o *.so zstd-1.4.5/lib/common/*.o zstd-1.4.5/lib/compress/*.o zstd-1.4.5/lib/decompress/*.o zstd-1.4.5/lib/dictBuilder/*.o
