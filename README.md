@@ -1,9 +1,9 @@
 # KPS 
-Kunpeng Storage provide kunpeng storage accelerator in Kunpeng compute. 
+Kunpeng Storage provides Kunpeng storage accelerators in Kunpeng computing.
 
 ## Introduction
 
-(1) glz is an global level compression/uncompression algorithm.
+(1) glz is a global compression and decompression algorithm.
 
 
 
