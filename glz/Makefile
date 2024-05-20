@@ -1,7 +1,3 @@
-# GLZ Makefile
-# ARM Platform
-# Compatible with zstd-1.4.5
-
 CC = gcc
 CXX = g++
 
