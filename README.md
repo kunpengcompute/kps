@@ -1,10 +1,21 @@
 # KPS 
-Kunpeng Storage provides Kunpeng storage accelerators in Kunpeng computing.
+## 介绍
+鲲鹏BoostKit分布式存储压缩算法（以下简称“压缩算法”）是华为自研无损压缩算法。通过对原始数据进行特征识别，动态匹配最佳压缩算法模型，实现数据缩减率提升；同时针对鲲鹏处理器进行指令级优化，实现压缩性能加速。适用于任意含有重复内容（非随机字符）的文本、网页、数据库、大数据等海量数据场景。相对于开源压缩算法，压缩算法压缩率更高，性能更好。与主流开源压缩算法相比，压缩率可提升25%，带宽性能提升10%。
 
-## Introduction
+本仓库主要提供压缩算法所需要的编译文件，用于将获得的安装包和构建依赖项共同编译出动态库。
 
-(1) glz is a global compression and decompression algorithm.
+## 支持压缩算法版本
+Kunpeng BoostKit 22.0.0，压缩算法 1.0.2
 
+## 支持Ceph版本
+Ceph 14.2.8
 
+## 支持处理器
+由于压缩算法是华为自研闭源算法，算法仅支持华为鲲鹏处理器和指定型号处理器使用。目前支持以下处理器使用：
+华为鲲鹏920处理器/飞腾S2500处理器
 
+## 支持的操作系统
+CentOS Linux release 7.6.1810/openEuler-20.03-LTS-SP1/openEuler-20.03-LTS-SP3
 
+## 使用说明
+详细使用文档可以参考[压缩算法使能指导](https://www.hikunpeng.com/document/detail/zh/kunpengsdss/basicAccelFeatures/dataReduc/kunpengkpszip_20_0001.html)
